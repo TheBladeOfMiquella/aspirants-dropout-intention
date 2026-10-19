@@ -1,0 +1,21 @@
+# Исходные и производные данные не входят в репозиторий (см. data/README.md)
+data/**/*.sav
+data/**/*.xlsx
+data/**/*.csv
+data/**/*.parquet
+
+# Промежуточные артефакты пайплайна
+analysis/*.parquet
+analysis/*.csv
+analysis/figs/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
