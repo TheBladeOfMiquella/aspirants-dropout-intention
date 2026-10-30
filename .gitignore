@@ -6,6 +6,7 @@ data/**/*.parquet
 
 # Промежуточные артефакты пайплайна
 analysis/*.parquet
+analysis/robust_full_mi/imputations_*.parquet
 analysis/*.csv
 analysis/figs/
 
